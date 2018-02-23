@@ -1,6 +1,7 @@
 require_relative 'track'
+require_relative 'errors/tracklists_not_match'
 
-class TrackList
+class Tracklist
   attr_accessor :tracklist
 
   def initialize(tracklist = [])
@@ -26,12 +27,8 @@ class TrackList
     @tracklist[index]
   end
 
-  def []=(index, new_value)
-    @tracklist[index] = new_value
-  end
-
-  def push(track)
-    @tracklist.push(track)
+  def size
+    @tracklist.length
   end
 
   def export(file_path)
@@ -44,7 +41,8 @@ class TrackList
   end
 
   def translate(lang_list)
-    TrackList.new do
+    raise TracklistsNotMatch if size != lang_list.size
+    Tracklist.new do
       @tracklist.map.with_index do |track, index|
         track.translate(lang_list[index])
       end
