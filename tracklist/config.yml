@@ -16,7 +16,7 @@ input:
   # Examples:
   #   "01 Track name" => in
   #   "Track name"    => i
-  lang_format: in
+  lang_format: n
 
 output:
   # Your output file path

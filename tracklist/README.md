@@ -1,18 +1,28 @@
-# Ver 1.1.0
+# Ver 1.2.0
 
 #### Usage
 
-* `$ ruby main.rb`
+* `./translate.rb [options]`
+
+  * `--in`: Input tracklist (original language)
+
+  * `--lang`: Language tracklist
+
+  * `--format`: Language tracklist format
+
+  * `--out`: Output tracklist (translated one)
 
 * For translating VGMdb tracklist purpose
 
-* Change format, input/output file in `config.yml` to use
+* Customizable via `config.yml` or command-line parameters
 
 * Use dash `-` in lang file to skip translating tracks
 
 #### Notes
 
 * Input tracklist and language tracklist must have same size (number of tracks)
+
+* Command-line parameter(s) has higher priority
 
 #### Examples
 
@@ -23,6 +33,10 @@
 * Output: `output/tracklist.txt`
 
 #### Changelog
+
+###### 1.2.0
+* Logger
+* Config via parameters
 
 ###### 1.1.0
 * Raise error when input tracklists do not match together
