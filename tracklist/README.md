@@ -1,7 +1,7 @@
 #### Usage
 
-* `$ ruby tvt.rb`
+* `$ ruby main.rb`
 
 * For translating VGMdb tracklist purpose
 
-* Change format, input/output file in `tvt.rb` to use
+* Change format, input/output file in `config.yml` to use
