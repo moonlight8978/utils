@@ -11,8 +11,9 @@ class Config
     options = self.new
     OptionParser.new do |opt|
       opt.on('--in IN') { |o| options['input']['tracklist_path'] = o }
+      opt.on('--inf IN') { |o| options['input']['tracklist_format'] = o }
       opt.on('--lang FORMAT') { |o| options['input']['lang_path'] = o }
-      opt.on('--format LANG') { |o| options['input']['lang_format'] = o }
+      opt.on('--langf LANG') { |o| options['input']['lang_format'] = o }
       opt.on('--out OUT') { |o| options['output']['tracklist_path'] = o }
     end.parse!
     options

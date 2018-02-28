@@ -1,16 +1,18 @@
-# Ver 1.2.0
+# Ver 1.3.0
 
 #### Usage
 
 * `./translate.rb [options]`
 
-  * `--in`: Input tracklist (original language)
+  * `--in`: Path to input tracklist (original language). Default: `input/tracklist.txt`
 
-  * `--lang`: Language tracklist
+  * `--inf`: Input tracklist format. Default: `inl`
 
-  * `--format`: Language tracklist format
+  * `--lang`: Path to language tracklist. Default `input/lang.txt`
 
-  * `--out`: Output tracklist (translated one)
+  * `--langf`: Language tracklist format. Default: `n`
+
+  * `--out`: Output tracklist (translated one). Default: ``output/tracklist.txt`
 
 * For translating VGMdb tracklist purpose
 
@@ -33,6 +35,9 @@
 * Output: `output/tracklist.txt`
 
 #### Changelog
+
+###### 1.3.0
+* Support 'in' input tracklist
 
 ###### 1.2.0
 * Logger
