@@ -4,15 +4,13 @@
 
 * `./translate.rb [options]`
 
-  * `--in`: Path to input tracklist (original language). Default: `input/tracklist.txt`
+  * `-s --src`: Path to input tracklist (original language). Default: `input/tracklist.txt`
 
-  * `--inf`: Input tracklist format. Default: `inl`
+  * `-l --lang`: Path to language tracklist. Default `input/lang.txt`
 
-  * `--lang`: Path to language tracklist. Default `input/lang.txt`
+  * `-i --lang-id`: Language tracklist format. Default: `n`
 
-  * `--langf`: Language tracklist format. Default: `n`
-
-  * `--out`: Output tracklist (translated one). Default: ``output/tracklist.txt`
+  * `-o --out`: Output tracklist (translated one). Default: ``output/tracklist.txt`
 
 * For translating VGMdb tracklist purpose
 
@@ -34,7 +32,13 @@
 
 * Output: `output/tracklist.txt`
 
+* Run: `$ ./translate.rb -i`
+
 #### Changelog
+
+###### 1.4.0
+* Length is automatically parsed from line
+* Change command-line parameters name
 
 ###### 1.3.0
 * Support 'in' input tracklist

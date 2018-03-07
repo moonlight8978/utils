@@ -10,11 +10,12 @@ class Config
   def self.from_command_line
     options = self.new
     OptionParser.new do |opt|
-      opt.on('--in IN') { |o| options['input']['tracklist_path'] = o }
-      opt.on('--inf IN') { |o| options['input']['tracklist_format'] = o }
-      opt.on('--lang FORMAT') { |o| options['input']['lang_path'] = o }
-      opt.on('--langf LANG') { |o| options['input']['lang_format'] = o }
-      opt.on('--out OUT') { |o| options['output']['tracklist_path'] = o }
+      opt.on('-s PATH', '--src PATH', 'Input tracklist path') { |o| options['input']['tracklist_path'] = o }
+
+      opt.on('-l PATH', '--lang PATH', 'Language tracklist path') { |o| options['input']['lang_path'] = o }
+      opt.on('-i[HAS_ID]', '--lang-id[HAS_ID]', 'Language tracklist contain id or not') { |o| options['input']['lang_id'] = true }
+
+      opt.on('-o PATH', '--out PATH', 'Output path') { |o| options['output']['tracklist_path'] = o }
     end.parse!
     options
   end

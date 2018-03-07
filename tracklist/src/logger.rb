@@ -9,10 +9,10 @@ class Logger
 
   def info_config(config)
     puts "Your config"
-    puts "--in     (Input tracklist - original language): #{config['input']['tracklist_path']}"
-    puts "--lang   (Language tracklist):                  #{config['input']['lang_path']}"
-    puts "--format (Language tracklist format):           #{config['input']['lang_format']}"
-    puts "--out    (Output tracklist - translated):       #{config['output']['tracklist_path']}"
+    puts "-s --src     (Input tracklist - original language): #{config['input']['tracklist_path']}"
+    puts "-l --lang    (Language tracklist):                  #{config['input']['lang_path']}"
+    puts "-i --lang-id (Language tracklist has id?):          #{config['input']['lang_id']}"
+    puts "-o --out     (Output tracklist - translated):       #{config['output']['tracklist_path']}"
   end
 
   def info_time

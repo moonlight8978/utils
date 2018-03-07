@@ -13,10 +13,10 @@ class Tracklist
       end
   end
 
-  def self.import(file_path, track_format = 'inl')
+  def self.import(file_path, has_id = true)
     File.open(file_path, 'r') do |file|
       tracklist = file.each_line.map do |line|
-        Track.parse(line, track_format)
+        Track.parse(line, has_id)
       end
 
       self.new(tracklist)
@@ -34,8 +34,9 @@ class Tracklist
   def export(file_path)
     content = ''
     @tracklist.each do |track|
-      line = "#{track.id} #{track.name} #{track.length}\r\n"
-      content.concat(line)
+      line = track.to_s
+      line << "\r\n"
+      content << line
     end
     File.open(file_path, 'w') { |file| file << content }
   end
