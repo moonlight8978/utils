@@ -4,23 +4,11 @@ input:
   #   You can use softwares like foobar2k, etc... to get the tracklist
   tracklist_path: input/tracklist.txt
 
-  # Put your input tracklist format here
-  #   i - id
-  #   n - name
-  #   l - length
-  # Supported formats: n, in, nl, inl
-  #
-  # Examples:
-  #   "01 Track name" => in
-  #   "Track name"    => i
-  tracklist_format: inl
-
   # Path to lang file, make sure the file is UTF-8
   lang_path: input/lang.txt
 
-  # Put your lang file format here
-  # See #tracklist_format
-  lang_format: n
+  # Each line in lang file contains id or not
+  lang_id: false
 
 output:
   # Your output file path
