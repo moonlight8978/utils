@@ -9,4 +9,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 EOM
-# echo "nvm install lts/carbon"
+echo <<-EOM
+Please restart terminal then install node
+$ nvm install <version>
+  version: lts/carbon, etc...
+EOM
