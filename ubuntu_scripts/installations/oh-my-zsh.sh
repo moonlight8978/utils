@@ -2,9 +2,15 @@
 
 # Install zsh
 echo "Installing zsh..."
-sudo apt-get update && sudo apt-get install \
+sudo apt-get update && sudo apt-get install
   curl \
   zsh
+cat >> ~/.bashrc <<-EOM
+if [ -t 1 ]; then
+  exec zsh
+fi
+
+EOM
 echo "Done."
 
 # Set zsh to default shell and install OMZ

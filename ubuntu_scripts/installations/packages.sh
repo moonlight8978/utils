@@ -1,4 +1,6 @@
-#! /bin/bash
+#! /bin/#!/usr/bin/env bash
+
+echo "Installing important packages..."
 
 # Git
 sudo add-apt-repository ppa:git-core/ppa
@@ -25,6 +27,16 @@ cat >> ~/.bashrc <<-EOC
 export JAVA_HOME="/usr/lib/jvm/default-java"
 
 EOC
+echo "Done."
 
-# Done
-echo "OK."
+echo "Installing fonts..."
+sudo apt-get install \
+  fonts-noto \
+  fonts-noto-hinted \
+  fonts-noto-mono \
+  fonts-noto-unhinted \
+  fonts-noto-cjk \
+  fonts-powerline
+echo "Done."
+
+echo "OK"

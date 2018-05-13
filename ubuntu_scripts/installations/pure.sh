@@ -22,20 +22,18 @@ cat >> ~/.bashrc <<-EOM
 if [ -t 1 ]; then
   exec zsh
 fi
-
 EOM
+
 echo "Done. Please restart your terminal."
 
 # Messages
 echo <<-EOM
-Please edit your ~/.zshrc to: (vi ~/.zshrc)
+Then edit your ~/.zshrc to:
+$ vi ~/.zshrc
   ZSH_THEME=""
   ...
   plugins=(
     [plugins...]
     zsh-syntax-highlighting
   )
-
-Then
-  exec zsh
 EOM

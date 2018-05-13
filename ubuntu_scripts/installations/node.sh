@@ -14,4 +14,8 @@ export NVM_DIR="$HOME/.nvm"
 EOM
 
 # Messages
-echo "nvm install lts/carbon"
+echo <<-EOM
+Please restart terminal then install node
+$ nvm install <version>
+  version: lts/carbon, etc...
+EOM
