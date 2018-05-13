@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# Install require packages
 sudo apt-get update && sudo apt-get install \
   git-core \
   curl \
@@ -20,6 +21,7 @@ sudo apt-get update && sudo apt-get install \
   libpq-dev \
   imagemagick
 
+# Install rbenv and set environment variables
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 cat >> ~/.zshenv <<EOM
@@ -31,9 +33,11 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 EOM
 exec $SHELL
 
+# Install ruby
 rbenv install 2.5.1
 rbenv global 2.5.1
 
+# Install gems
 gem install bundler
 gem install rails
 
