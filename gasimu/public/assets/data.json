@@ -1,0 +1,295 @@
+{
+    "exclusive": [
+        {
+            "unit_id": 107601,
+            "unit_name": "コッコロ（サマー）",
+            "rarity": 1
+        },
+        {
+            "unit_id": 108001,
+            "unit_name": "ミフユ（サマー）",
+            "rarity": 1
+        },
+        {
+            "unit_id": 107501,
+            "unit_name": "ペコリーヌ（サマー）",
+            "rarity": 3
+        },
+        {
+            "unit_id": 107701,
+            "unit_name": "スズメ（サマー）",
+            "rarity": 3
+        },
+        {
+            "unit_id": 107801,
+            "unit_name": "キャル（サマー）",
+            "rarity": 3
+        },
+        {
+            "unit_id": 107901,
+            "unit_name": "タマキ（サマー）",
+            "rarity": 3
+        }
+    ],
+    "oneStar": [
+        {
+            "unit_id": 100101,
+            "unit_name": "ヒヨリ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 100201,
+            "unit_name": "ユイ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 100301,
+            "unit_name": "レイ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 100401,
+            "unit_name": "ミソギ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 102101,
+            "unit_name": "クルミ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 102201,
+            "unit_name": "ヨリ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 102501,
+            "unit_name": "スズメ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 103401,
+            "unit_name": "ユカリ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 104001,
+            "unit_name": "アオイ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 105001,
+            "unit_name": "ミサキ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 105201,
+            "unit_name": "リマ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 105801,
+            "unit_name": "ペコリーヌ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 105901,
+            "unit_name": "コッコロ",
+            "rarity": 1
+        },
+        {
+            "unit_id": 106001,
+            "unit_name": "キャル",
+            "rarity": 1
+        }
+    ],
+    "twoStars": [
+        {
+            "unit_id": 100601,
+            "unit_name": "アカリ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 100701,
+            "unit_name": "ミヤコ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 100801,
+            "unit_name": "ユキ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 101501,
+            "unit_name": "ミサト",
+            "rarity": 2
+        },
+        {
+            "unit_id": 101601,
+            "unit_name": "スズナ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 101701,
+            "unit_name": "カオリ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 102001,
+            "unit_name": "ミミ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 102301,
+            "unit_name": "アヤネ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 102601,
+            "unit_name": "リン",
+            "rarity": 2
+        },
+        {
+            "unit_id": 102701,
+            "unit_name": "エリコ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 103101,
+            "unit_name": "シノブ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 103301,
+            "unit_name": "マヒル",
+            "rarity": 2
+        },
+        {
+            "unit_id": 103801,
+            "unit_name": "シオリ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 104201,
+            "unit_name": "チカ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 104501,
+            "unit_name": "クウカ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 104601,
+            "unit_name": "タマキ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 104801,
+            "unit_name": "ミフユ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 105101,
+            "unit_name": "ミツキ",
+            "rarity": 2
+        },
+        {
+            "unit_id": 105401,
+            "unit_name": "ツムギ",
+            "rarity": 2
+        }
+    ],
+    "threeStars": [
+        {
+            "unit_id": 100901,
+            "unit_name": "アンナ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 101001,
+            "unit_name": "マホ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 101101,
+            "unit_name": "リノ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 101201,
+            "unit_name": "ハツネ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 101801,
+            "unit_name": "イオ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 102801,
+            "unit_name": "サレン",
+            "rarity": 3
+        },
+        {
+            "unit_id": 102901,
+            "unit_name": "ノゾミ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 103001,
+            "unit_name": "ニノン",
+            "rarity": 3
+        },
+        {
+            "unit_id": 103201,
+            "unit_name": "アキノ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 103601,
+            "unit_name": "キョウカ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 104301,
+            "unit_name": "マコト",
+            "rarity": 3
+        },
+        {
+            "unit_id": 104401,
+            "unit_name": "イリヤ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 104701,
+            "unit_name": "ジュン",
+            "rarity": 3
+        },
+        {
+            "unit_id": 104901,
+            "unit_name": "シズル",
+            "rarity": 3
+        },
+        {
+            "unit_id": 105301,
+            "unit_name": "モニカ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 105701,
+            "unit_name": "ジータ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 106301,
+            "unit_name": "アリサ",
+            "rarity": 3
+        },
+        {
+            "unit_id": 103701,
+            "unit_name": "トモ",
+            "rarity": 3
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+# Gasimu
+
+(Gacha simulator)
